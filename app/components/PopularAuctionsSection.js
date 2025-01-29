@@ -9,7 +9,6 @@ const popularAuctions = [
   { id: 11, name: 'Surreal World', creator: 'Collector 10', price: 5.1, image: '/images/nft11.jpg' },
   { id: 12, name: 'Cybernetic Being', creator: 'NFT Expert 11', price: 4.5, image: '/images/nft12.jpg' },
   { id: 13, name: 'Infinite Loop', creator: 'Artist 12', price: 3.9, image: '/images/nft13.jpg' },
-  // ... more NFTs
 ];
 
 export default function PopularAuctionsSection() {
@@ -17,13 +16,13 @@ export default function PopularAuctionsSection() {
 
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollLeft -= 300; // Adjust scroll distance as needed
+      scrollContainerRef.current.scrollLeft -= 300; // to Adjust scroll distance as needed
     }
   };
 
   const scrollRight = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollLeft += 300; // Adjust scroll distance as needed
+      scrollContainerRef.current.scrollLeft += 300; // to Adjust scroll distance as needed
     }
   };
 

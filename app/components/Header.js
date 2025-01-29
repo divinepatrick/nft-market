@@ -9,13 +9,15 @@ export default function Header() {
           NFT Market
         </Link>
         <nav className="hidden md:flex space-x-6">
-          <Link href="/listing" className="hover:text-gray-300">Listing Page</Link>
-          <Link href="/explore" className="hover:text-gray-300">Explore</Link>
-          <Link href="/activity" className="hover:text-gray-300">Activity</Link>
+          <Link href="/listing" className="hover:text-gray-300">Auctions</Link>
+          <Link href="/explore" className="hover:text-gray-300">Roadmap</Link>
+          <Link href="/activity" className="hover:text-gray-300">Discover</Link>
           <Link href="/community" className="hover:text-gray-300">Community</Link>
-          <Link href="/help" className="hover:text-gray-300">Help</Link>
         </nav>
         <div className="flex items-center space-x-4">
+          <button className="hover:bg-purple-700 text-white font-bold py-2 px-4 rounded border border-white">
+            Contact
+          </button>
           <button className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded">
             Connect Wallet
           </button>
