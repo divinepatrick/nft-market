@@ -12,8 +12,8 @@ export default function Footer() {
               <Image src="/images/market-logo.png" alt="NFT Market Logo" width={30} height={30} className="mr-2" />
               NFT Market
             </Link>
-            <div className="flex flex-col h-full justify-end">
-              <div className="flex justify-start space-x-6">
+            <div className="flex flex-col h-full justify-end pb-8">
+              <div className="flex flex-wrap justify-start space-x-6">
                 <Link href="/support" className="hover:opacity-70 block font-normal">Support</Link> {/* Changed font-normal */}
                 <Link href="/terms" className="hover:opacity-70 block font-normal">Term of service</Link> {/* Changed font-normal */}
                 <Link href="/license" className="hover:opacity-70 block font-normal">License</Link> {/* Changed font-normal */}
@@ -31,21 +31,21 @@ export default function Footer() {
           <button className="bg-[#3734A9] hover:bg-[#4A47C7] text-white font-normal py-3 px-6 rounded-lg w-full text-left transition-colors"> {/* Changed font-normal */}
             My account
           </button>
-          <div className="flex space-x-4 mt-6">
+          <div className="flex flex-wrap space-x-4 mt-6">
             <Link href="#" className="hover:opacity-70">
-              <Image src="/images/social-facebook.svg" alt="Facebook" width={50} height={35} className="opacity-100 hover:opacity-80 transition-opacity" /> {/* Changed hover:opacity-100 to hover:opacity-80 */}
+              <Image src="/images/social-facebook.svg" alt="Facebook" width={40} height={35} className="opacity-100 hover:opacity-80 transition-opacity" /> {/* Changed hover:opacity-100 to hover:opacity-80 */}
             </Link>
             <Link href="#" className="hover:opacity-70">
-              <Image src="/images/social-linkedin.svg" alt="LinkedIn" width={50} height={35} className="opacity-100 hover:opacity-80 transition-opacity" /> {/* Changed hover:opacity-100 to hover:opacity-80 */}
+              <Image src="/images/social-linkedin.svg" alt="LinkedIn" width={40} height={35} className="opacity-100 hover:opacity-80 transition-opacity" /> {/* Changed hover:opacity-100 to hover:opacity-80 */}
             </Link>
             <Link href="#" className="hover:opacity-70">
-              <Image src="/images/social-github.svg" alt="Discord" width={50} height={35} className="opacity-100 hover:opacity-80 transition-opacity" /> {/* Changed hover:opacity-100 to hover:opacity-80 */}
+              <Image src="/images/social-github.svg" alt="Discord" width={40} height={35} className="opacity-100 hover:opacity-80 transition-opacity" /> {/* Changed hover:opacity-100 to hover:opacity-80 */}
             </Link>
             <Link href="#" className="hover:opacity-70">
-              <Image src="/images/social-twitter.svg" alt="Twitter" width={50} height={35} className="opacity-100 hover:opacity-80 transition-opacity" /> {/* Changed hover:opacity-100 to hover:opacity-80 */}
+              <Image src="/images/social-twitter.svg" alt="Twitter" width={40} height={35} className="opacity-100 hover:opacity-80 transition-opacity" /> {/* Changed hover:opacity-100 to hover:opacity-80 */}
             </Link>
             <Link href="#" className="hover:opacity-70">
-              <Image src="/images/social-instagram.svg" alt="Instagram" width={50} height={35} className="opacity-100 hover:opacity-80 transition-opacity" /> {/* Changed hover:opacity-100 to hover:opacity-80 */}
+              <Image src="/images/social-instagram.svg" alt="Instagram" width={40} height={35} className="opacity-100 hover:opacity-80 transition-opacity" /> {/* Changed hover:opacity-100 to hover:opacity-80 */}
             </Link>
           </div>
         </nav>
