@@ -7,7 +7,6 @@ import PopularAuctionsSection from './components/PopularAuctionsSection';
 import StatsSection from './components/StatsSection';
 import NewsletterSection from './components/NewsletterSection';
 import Footer from './components/Footer';
-import BottomNav from './components/BottomNav';
 
 export default function Home() {
   return (
@@ -33,7 +32,6 @@ export default function Home() {
       <StatsSection />
       <NewsletterSection />
       <Footer />
-      <BottomNav />
     </div>
   );
 }

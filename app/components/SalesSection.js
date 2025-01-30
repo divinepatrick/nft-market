@@ -11,15 +11,14 @@ const dummySales = [
 export default function SalesSection() {
   return (
     <div className="bg-dark-purple py-12 px-6">
-      <div className="container mx-auto flex flex-row gap-4">
+      <div className="container mx-auto flex flex-col lg:flex-row gap-4">
         <div className="flex-1">
           <h2 className="text-2xl font-bold text-white mb-6">Check out the hottest Sale offers</h2>
-          <div className="flex flex-row gap-4">
-            <div className="w-1/2 flex flex-col bg-neutral-800 rounded-2xl px-4">
+          <div className="flex flex-col lg:flex-row gap-4">
+            <div className="w-full lg:w-1/2 flex flex-col bg-neutral-800 rounded-2xl px-4">
               <div className="p-2">
                 <img src="/images/nft5.jpg" className="rounded-xl" alt="" />
               </div>
-
               <p className="text-white">Fames habitasse risus ultricies tortor sit</p>
               <div className="flex flex-row justify-between items-center">
                 <div className="text-white text-sm">
@@ -30,17 +29,14 @@ export default function SalesSection() {
                 </div>
               </div>
               <div className="flex flex-row justify-between items-center mb-4">
-
                 <p className="text-gray-400 text-sm">101 people are bidding</p>
                 <i className="ri-heart-line text-white"></i>
-
               </div>
             </div>
-            <div className="w-1/2 flex flex-col bg-neutral-800 rounded-2xl px-4">
+            <div className="w-full lg:w-1/2 flex flex-col bg-neutral-800 rounded-2xl px-4">
               <div className="p-2">
                 <img src="/images/nft6.jpg" className="rounded-xl" alt="" />
               </div>
-
               <p className="text-white">Fames habitasse risus ultricies tortor sit</p>
               <div className="flex flex-row justify-between items-center">
                 <div className="text-white text-sm">
@@ -51,10 +47,8 @@ export default function SalesSection() {
                 </div>
               </div>
               <div className="flex flex-row justify-between items-center mb-4">
-
                 <p className="text-gray-400 text-sm">101 people are bidding</p>
                 <i className="ri-heart-line text-white"></i>
-
               </div>
             </div>
           </div>
@@ -64,8 +58,8 @@ export default function SalesSection() {
             </button>
           </div>
         </div>
-        <div className="flex-1 flex flex-col items-center justify-center">
-          <div className="bg-neutral-800 rounded-3xl w-[300px] h-[100%] p-4 flex flex-col items-center justify-center">
+        <div className="flex-1 flex flex-col items-center justify-center mt-8 lg:mt-0">
+          <div className="bg-neutral-800 rounded-3xl w-full lg:w-[300px] h-full p-4 flex flex-col items-center justify-center">
             <img src="/images/hammernft.png" alt="" className="object-contain h-full"/>
             <p className="text-white mt-4 font-bold">Get started creating & selling your NFTs</p>
             <p className="text-gray-400 text-center">Nunc gravida faucibus netus feugiat tellus, viverra massa feugiat. Mi est sit.</p>
@@ -74,11 +68,10 @@ export default function SalesSection() {
             </button>
           </div>
         </div>
-        <div className="flex-1 ">
+        <div className="flex-1 mt-8 lg:mt-0">
           <h2 className="text-2xl font-bold text-white mb-6">Top NFT at a lower price</h2>
           <div className="flex flex-col gap-4">
             <div className="flex flex-row items-center bg-neutral-800 rounded-2xl p-2">
-
               <div className="w-24 p-2 rounded-xl">
                 <img src="/images/nft7.jpg" className="rounded-xl" alt="" />
               </div>
@@ -90,7 +83,6 @@ export default function SalesSection() {
                   </div>
                   <p className="text-purple-500">1.25 ETH</p>
                 </div>
-
                 <div className="flex flex-row justify-between items-center mt-2">
                   <p className="text-gray-400">101 people are bidding</p>
                   <i className="ri-heart-line text-white"></i>
@@ -98,7 +90,6 @@ export default function SalesSection() {
               </div>
             </div>
             <div className="flex flex-row items-center bg-neutral-800 rounded-2xl p-2">
-
               <div className="w-24 p-2 rounded-xl">
                 <img src="/images/nft8.jpg" className="rounded-xl" alt="" />
               </div>
@@ -110,7 +101,6 @@ export default function SalesSection() {
                   </div>
                   <p className="text-purple-500">1.25 ETH</p>
                 </div>
-
                 <div className="flex flex-row justify-between items-center mt-2">
                   <p className="text-gray-400">101 people are bidding</p>
                   <i className="ri-heart-line text-white"></i>
@@ -118,7 +108,6 @@ export default function SalesSection() {
               </div>
             </div>
             <div className="flex flex-row items-center bg-neutral-800 rounded-2xl p-2">
-
               <div className="w-24 p-2 rounded-xl">
                 <img src="/images/nft5.jpg" className="rounded-xl" alt="" />
               </div>
@@ -130,7 +119,6 @@ export default function SalesSection() {
                   </div>
                   <p className="text-purple-500">1.25 ETH</p>
                 </div>
-
                 <div className="flex flex-row justify-between items-center mt-2">
                   <p className="text-gray-400">101 people are bidding</p>
                   <i className="ri-heart-line text-white"></i>
@@ -138,7 +126,6 @@ export default function SalesSection() {
               </div>
             </div>
             <div className="flex flex-row items-center bg-neutral-800 rounded-2xl p-2">
-
               <div className="w-24 p-2 rounded-xl">
                 <img src="/images/nft6.jpg" className="rounded-xl" alt="" />
               </div>
@@ -150,7 +137,6 @@ export default function SalesSection() {
                   </div>
                   <p className="text-purple-500">1.25 ETH</p>
                 </div>
-
                 <div className="flex flex-row justify-between items-center mt-2">
                   <p className="text-gray-400">101 people are bidding</p>
                   <i className="ri-heart-line text-white"></i>
