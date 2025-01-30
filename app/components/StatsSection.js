@@ -1,8 +1,8 @@
 const stats = [
-    { value: '300k', label: 'Total NFTs' },
-    { value: '52,5k', label: 'Artists' },
-    { value: '17,5k', label: 'Collectors' },
-    { value: '35.58', label: 'ETH Volume' },
+    { value: '300k', label: 'Users Active' },
+    { value: '52,5k', label: 'Artworks' },
+    { value: '17,5k', label: 'Artists' },
+    { value: '35.58', label: 'ETH Spent' },
   ];
   
   export default function StatsSection() {

@@ -1,10 +1,10 @@
 import Image from 'next/image';
 
 const teamMembers = [
-  { id: 1, username: 'brook_slim', avatar: '/images/avatar1.jpg', items: 206, collection: 12, eth: '4.78 ETH' },
-  { id: 2, username: 'marvinmckin', avatar: '/images/avatar2.jpg', items: 479, collection: 24, eth: '7.53 ETH' },
-  { id: 3, username: 'esther_howard', avatar: '/images/avatar3.jpg', items: 387, collection: 10, eth: '5.11 ETH' },
-  { id: 4, username: 'brook_slim2', avatar: '/images/avatar4.jpg', items: 99, collection: 11, eth: '6.22 ETH' }, // Example of 4th member for visual stacking
+  { id: 1, username: 'lola', avatar: '/images/lola.png', items: 206, collection: 12, eth: '4.78 ETH' },
+  { id: 2, username: 'marvinmckin', avatar: '/images/brook.png', items: 479, collection: 24, eth: '7.53 ETH' },
+  { id: 3, username: 'esther_howard', avatar: '/images/lola.png', items: 387, collection: 10, eth: '5.11 ETH' },
+  { id: 4, username: 'brook_slim2', avatar: '/images/brook.png', items: 99, collection: 11, eth: '6.22 ETH' }, // Example of 4th member for visual stacking
 ];
 
 export default function NewsletterSection() {
