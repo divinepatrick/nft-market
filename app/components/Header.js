@@ -3,12 +3,12 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="bg-[#121025] text-white min-h-screen relative overflow-hidden">
+    <header className="bg-[#080821] text-white min-h-screen relative overflow-hidden">
       {/* Navigation Bar */}
       <div className="container mx-auto py-4 px-6 relative z-20">
         <div className="flex justify-between items-center">
           <Link href="/" className="text-xl font-bold">
-            NFT Market
+            <img src="/images/market-logo.png" alt="NFT Market Logo" className="h-12 w-auto" />
           </Link>
           <nav className="hidden md:flex space-x-6">
             <Link href="/listing" className="hover:text-gray-300">Auctions</Link>
@@ -35,7 +35,7 @@ export default function Header() {
         <div className="relative">
           <h1 className="text-5xl md:text-7xl font-bold leading-[1] mb-8 relative inline-block">
             A new NFT
-            <span className="text-[#31F2F7]">C</span>
+            <img src="images/market-logo.png" alt="logo" className="inline-block" />
             <br />
             Experience
             <div className="absolute inset-0 z-0 pointer-events-none">
@@ -45,28 +45,28 @@ export default function Header() {
                 style={{
                   top: "50%",
                   left: "50%",
+                  width: "80rem",
+                  height: "80rem",
+                  transform: "translate(-50%, -50%)",
+                }}
+              />
+              <div
+                className="absolute rounded-full border-2 border-[#31F2F7] opacity-20"
+                style={{
+                  top: "50%",
+                  left: "50%",
+                  width: "60rem",
+                  height: "60rem",
+                  transform: "translate(-50%, -50%)",
+                }}
+              />
+              <div
+                className="absolute rounded-full border-2 border-[#31F2F7] opacity-20"
+                style={{
+                  top: "50%",
+                  left: "50%",
                   width: "40rem",
                   height: "40rem",
-                  transform: "translate(-50%, -50%)",
-                }}
-              />
-              <div
-                className="absolute rounded-full border-2 border-[#31F2F7] opacity-20"
-                style={{
-                  top: "50%",
-                  left: "50%",
-                  width: "30rem",
-                  height: "30rem",
-                  transform: "translate(-50%, -50%)",
-                }}
-              />
-              <div
-                className="absolute rounded-full border-2 border-[#31F2F7] opacity-20"
-                style={{
-                  top: "50%",
-                  left: "50%",
-                  width: "20rem",
-                  height: "20rem",
                   transform: "translate(-50%, -50%)",
                 }}
               />
@@ -153,5 +153,3 @@ export default function Header() {
     </header>
   );
 }
-
-

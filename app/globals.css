@@ -13,6 +13,6 @@
     @apply max-w-7xl mx-auto;
   }
   .bg-dark-purple {
-    @apply bg-[#12121A]; /* Example dark purple from image */
+    @apply bg-[#12121A];
   }
 }

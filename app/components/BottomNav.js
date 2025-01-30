@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function BottomNav() {
   return (
-    <nav className="fixed bottom-0 left-0 right-0 bg-dark-purple border-t border-gray-700 text-white py-2 md:hidden">
+    <nav className="bg-[#080821] fixed bottom-0 left-0 right-0 border-t border-gray-700 text-white py-2 md:hidden">
       <div className="container mx-auto flex justify-around">
         <Link href="/" className="flex flex-col items-center hover:text-purple-300">
           <Image src="/images/icon-home.svg" alt="Home" width={24} height={24} />

@@ -18,7 +18,7 @@ export default function Home() {
       <TextImageSection
         title="Sapien ipsum scelerisque convallis fusce"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        image="/images/paint.png" // Placeholder image
+        image="/images/splash.png" // Placeholder image
         buttonText="See More"
       />
       <SalesSection />

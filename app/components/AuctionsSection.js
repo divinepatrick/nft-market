@@ -10,7 +10,7 @@ const dummyAuctions = [
 
 export default function AuctionsSection() {
   return (
-    <section className="bg-[#121025] py-12 px-6">
+    <section className="bg-[#050714] py-12 px-6">
       <div className="container mx-auto">
         <h2 className="text-2xl font-bold text-white text-center mb-8">Latest live auctions</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
